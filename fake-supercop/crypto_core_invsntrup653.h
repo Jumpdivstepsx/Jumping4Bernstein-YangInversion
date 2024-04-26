@@ -1,0 +1,29 @@
+#ifndef crypto_core_invsntrup653_H
+#define crypto_core_invsntrup653_H
+
+#define crypto_core_invsntrup653_jumpdivsteps_constbranchindex_OUTPUTBYTES 1306
+#define crypto_core_invsntrup653_jumpdivsteps_constbranchindex_INPUTBYTES 653
+#define crypto_core_invsntrup653_jumpdivsteps_constbranchindex_KEYBYTES 0
+#define crypto_core_invsntrup653_jumpdivsteps_constbranchindex_CONSTBYTES 0
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+extern int crypto_core_invsntrup653_jumpdivsteps_constbranchindex(unsigned char *,const unsigned char *,const unsigned char *,const unsigned char *);
+#ifdef __cplusplus
+}
+#endif
+
+#define crypto_core_invsntrup653 crypto_core_invsntrup653_jumpdivsteps_constbranchindex
+#define crypto_core_invsntrup653_OUTPUTBYTES crypto_core_invsntrup653_jumpdivsteps_constbranchindex_OUTPUTBYTES
+#define crypto_core_invsntrup653_INPUTBYTES crypto_core_invsntrup653_jumpdivsteps_constbranchindex_INPUTBYTES
+#define crypto_core_invsntrup653_KEYBYTES crypto_core_invsntrup653_jumpdivsteps_constbranchindex_KEYBYTES
+#define crypto_core_invsntrup653_CONSTBYTES crypto_core_invsntrup653_jumpdivsteps_constbranchindex_CONSTBYTES
+#define crypto_core_invsntrup653_IMPLEMENTATION "crypto_core/invsntrup653/jumpdivsteps"
+#ifndef crypto_core_invsntrup653_jumpdivsteps_constbranchindex_VERSION
+#define crypto_core_invsntrup653_jumpdivsteps_constbranchindex_VERSION "-"
+#endif
+#define crypto_core_invsntrup653_VERSION crypto_core_invsntrup653_jumpdivsteps_constbranchindex_VERSION
+
+#endif
